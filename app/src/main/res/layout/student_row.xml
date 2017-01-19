@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/sherly"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"/>
+     <TextView
+        android:id="@+id/textViewStudentName"
+        android:textColor="#735f5f"
+        android:textSize="16dp"
+        android:text="Kapil"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewStudentEmail"
+        android:layout_alignLeft="@+id/textViewStudentEmail"
+        android:layout_alignStart="@+id/textViewStudentEmail" />
+
+    <TextView
+        android:id="@+id/textViewStudentEmail"
+        android:text="kapil@gmail.com"
+        android:textColor="#d73f1c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewStudentPhone"
+        android:layout_marginLeft="80dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewStudentBranch"
+        android:text="MEC"
+        android:textColor="#f10018"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1234567890"
+        android:textColor="#0868c9"
+        android:id="@+id/textViewStudentPhone"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignRight="@+id/textViewStudentBranch"
+        android:layout_alignEnd="@+id/textViewStudentBranch" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="121"
+        android:id="@+id/textViewStudentId"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignLeft="@+id/textViewStudentEmail"
+        android:layout_alignStart="@+id/textViewStudentEmail" />
+
+
+
+</RelativeLayout>

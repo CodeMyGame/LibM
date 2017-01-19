@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "81882906781",
+    "firebase_url": "https://libm-5ed74.firebaseio.com",
+    "project_id": "libm-5ed74",
+    "storage_bucket": "libm-5ed74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81882906781:android:3a970306cfb86ab1",
+        "android_client_info": {
+          "package_name": "com.treaso.libm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81882906781-3ce25nidsnne6bcb57p202aa93i78kjj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.treaso.libm",
+            "certificate_hash": "6115FB91B746D95655ABDEE21A1A8D5EA87CF4C0"
+          }
+        },
+        {
+          "client_id": "81882906781-kt3hdb3318fsetf44ffl3gpv5cjjlf9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxVqtmG14bYiXAyymXf39SELYfu7IXjsg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81882906781-kt3hdb3318fsetf44ffl3gpv5cjjlf9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

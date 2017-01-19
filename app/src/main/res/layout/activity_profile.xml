@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bdbebf"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.treaso.libm.MainActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#fff"
+        android:id="@+id/relativeLayout">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sherly"
+            android:id="@+id/imageView"
+            android:transitionName="mytransition"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="31dp"
+            android:layout_marginStart="31dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Sherly Setia"
+            android:id="@+id/textView"
+            android:layout_marginLeft="18dp"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="India, New Zealand"
+            android:id="@+id/textView2"
+            android:textColor="#aaadb1"
+            android:layout_below="@+id/textView"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Change DP"
+            android:textColor="#fff"
+            android:background="#60ea6e"
+            android:id="@+id/button"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="write"
+            android:layout_marginLeft="5dp"
+            android:background="#969b96"
+            android:textColor="#fff"
+            android:id="@+id/button2"
+            android:layout_alignTop="@+id/button"
+            android:layout_toRightOf="@+id/button"
+            android:layout_toEndOf="@+id/button" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout2">
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#fff"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+    </RelativeLayout>
+
+</RelativeLayout>
